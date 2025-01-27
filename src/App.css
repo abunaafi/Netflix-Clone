@@ -1,8 +1,17 @@
-body{
-  margin: 0;
-  padding: 0;
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.footer-icons {
+
+* {
+  background-color: #101010;
+  color: white;
+ 
+ 
+}
+/* .footer-icons {
   margin-left: 90px;
   font-size: 25px;
 }
@@ -36,10 +45,62 @@ body{
   align-items: flex-start;
   color: #808080;
   margin: 20px 10px 0px 99px;
-}
+} */
 .netflix-logo {
   display: flex;
-  width: 10%;
-  height: auto;
- 
+  width: 90px;
+  margin: 0px 0px 0px 10px;
+  cursor: pointer;
 }
+.navbar {
+  width: 100%;
+  padding: 20px, 6%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  font-size: 14px;
+  color: #e5e5e5;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%);
+  z-index: 1;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.list-items ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+
+}
+.list-items ul li{
+  cursor: pointer;
+}
+
+
+.search-avatar{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+
+}
+.search-avatar .icons{
+width: 20px;
+cursor: pointer;
+}
+
+.search-avatar .search-profile{
+border-radius:4px ;
+width:50px;
+}
+.search-profile,.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
