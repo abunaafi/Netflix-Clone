@@ -4,6 +4,8 @@ import { FaFacebookF } from "react-icons/fa";
 export const Footer = () => {
   return (
     <>
+    
+    <div className="footerContainer">
    <div className="footer-icons">
     <a href="https://www.facebook.com/NetflixUK" target='_blank'> <FaFacebookF /></a> 
 
@@ -13,8 +15,6 @@ export const Footer = () => {
 
      <a href="https://www.youtube.com/user/netflixuk" target="_blank" rel="noopener noreferrer"> <BsYoutube /></a>
     </div>
-    
-    <div className="footerContainer">
       <div className="col-1">
         <li> Audio</li>
         <li>Investor </li>
