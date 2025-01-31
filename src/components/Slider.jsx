@@ -7,6 +7,7 @@ const Slider = () => {
   const [movies, setMovies] = useState([]);
   const sliderRef = useRef(null);
   const isTransitioning = useRef(false);
+  
   useEffect(() => {
     fetch(API_URL)
       .then((res) => res.json())
