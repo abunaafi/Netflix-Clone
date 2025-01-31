@@ -23,17 +23,12 @@ const Highlight = () => {
         <Navbar />
         <div className="movie-poster">
           <img
-            src="https://image.tmdb.org/t/p/original/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg"
+            src="https://image.tmdb.org/t/p/original/4OgaftFNqtE1UvfDDb2Eov7A5Rz.jpg"
             alt=""
           />
+          
           <div className="title"> 
-            <p>
-              Knuckles, and Tails reunite against a powerful new adversary,
-              Shadow, a mysterious villain with powers unlike anything they have
-              faced before. With their abilities outmatched in every way, Team
-              Sonic must seek out an unlikely alliance in hopes of stopping
-              Shadow and protecting the planet.
-            </p>
+           
           </div>
         </div>
         {/* <div className="buttons">

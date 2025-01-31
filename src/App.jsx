@@ -3,6 +3,8 @@ import "./App.css";
 import { Footer } from './components/Footer'
 import Navbar from "./components/Navbar";
 import Highlight from "./components/Highlight";
+import Slider from "./components/Slider";
+import "./slider.css"
 function App() {
   // const API_URL =
   //   "https://api.themoviedb.org/3/movie/popular?api_key=214728d1784ef60daa12adae1e6fc4b0";
@@ -16,7 +18,9 @@ function App() {
   return (
     <>
 <Highlight/>
-<Footer/>
+<Slider/>
+{/* <Footer/> */}
+
     </>
   );
 }

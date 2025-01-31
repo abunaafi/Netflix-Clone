@@ -32,7 +32,7 @@ const Navbar = () => {
               A
             </Avatar>
           </div>
-            <ArrowDropDownIcon fontSize="large"  />
+            <ArrowDropDownIcon fontSize="large" className="drop" />
         </div>
       </div>
     </>
