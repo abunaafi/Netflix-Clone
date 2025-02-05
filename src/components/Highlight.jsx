@@ -18,39 +18,24 @@ const Highlight = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
       <div className="main">
         <Navbar />
+
         <div className="movie-poster">
           <img
             src="https://image.tmdb.org/t/p/original/4OgaftFNqtE1UvfDDb2Eov7A5Rz.jpg"
             alt=""
           />
-          
-          <div className="title"> 
-           
+        <div className="title">
+          MOANA II
+        </div>
+
+          {/* <div className="title">
+            Moana II
           </div>
+          <p>after receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced</p> */}
         </div>
-        {/* <div className="buttons">
-          <Stack direction='row' spacing={2}>
-    <Button variant="contained" startIcon={<PlayArrowIcon color="secondary"/>}>Play</Button>
-    
-    <Button variant="outlined" >More Info</Button>
-</Stack>
-          </div> */}
       </div>
-      {/* {movies.map((movie, index) => (
-        <div>
-          <img
-            key={index}
-            className="child"
-            src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`}
-            alt={movie.title}
-          />
-          <div className="description">{movie.overview}</div>
-          <p className="title">{movie.title}</p>
-        </div>
-      ))} */}
     </>
   );
 };
