@@ -2,7 +2,7 @@
   display: block;
   position: relative;
   bottom: 0;
-  margin-left: 50px 0px 20px 50px;
+  margin: 50px 0px 0px 50px;
 }
 
 .footer-icons {
@@ -35,9 +35,9 @@
   text-decoration: underline;
 }
 .copyright{
+    color: #808080;
     display: inline;
-    font-size: 20ox;
-    font-weight: bold;
+    font-size: 15px;
     margin-left: 10rem;
     margin-bottom: 10rem;
 }
