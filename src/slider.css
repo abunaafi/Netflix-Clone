@@ -8,16 +8,18 @@
   width: 100%;
 }
 .slider-container {
+    margin-left: 50px;
   position: relative;
   width: 90%;
   overflow: hidden;
   width: 100%;
 }
 .header{
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 5px;
     display: flex;
     justify-content: flex-start;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 400px;
 }
 .slider {
   display: flex;
@@ -41,7 +43,7 @@ scroll-behavior: smooth;
   transition: transform 0.3s ease-in-out;
 }
 .movie:hover{
-   transform: scale(1.5);
+   transform: scale(1.2);
    cursor: pointer;
 }
 .scroll-button{ 

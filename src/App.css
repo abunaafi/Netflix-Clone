@@ -8,7 +8,7 @@ body{
 }
 
 * {
-  background-color: #101010;
+  background-color: #141414;
   color: white;
  
 }
@@ -60,6 +60,7 @@ body{
   background: transparent;
 }
 .navbar {
+  margin-left: 50px;
   width: 100%;
   padding: 20px, 6%;
   display: flex;
